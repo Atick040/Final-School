@@ -228,10 +228,10 @@ header > hr{
 .stories {
     height: 930px;
     width: 1500px;
-    background-image: url("./assets/bg.png");
+    background-image: url("../assets/bg.png");
     background-size: cover;
     background: linear-gradient(to top, #F7E7CE 0%, #f7e7ceb9 20%,  rgba(247, 247, 247, 1) 80% ), 
-    url("./assets/bg.png");
+    url("../assets/bg.png");
 }
 .stories img {
     max-width: 100%;
