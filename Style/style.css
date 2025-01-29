@@ -162,7 +162,7 @@ header > hr{
 
 /* Standard style */
 .bg-img{
-  background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -225,13 +225,14 @@ header > hr{
 }
 
 /* Stories section start */
+
 .stories {
     height: 930px;
-    width: 1500px;
-    background-image: url("../assets/bg.png");
+    width: 1535px;
+  background-image: url(../assets/bg.png);
     background-size: cover;
     background: linear-gradient(to top, #F7E7CE 0%, #f7e7ceb9 20%,  rgba(247, 247, 247, 1) 80% ), 
-    url("../assets/bg.png");
+    url(../assets/bg.png);
 }
 .stories img {
     max-width: 100%;
@@ -290,7 +291,6 @@ header > hr{
     position: absolute;
     top: 314px; 
     left: 24px;
-    /* z-index: 1; */
     color: white;
 }
 .span-2 {
@@ -385,7 +385,7 @@ header > hr{
 }
 
 /* Section: stories for mobile  */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576.5px) {
     /* body .stories{
         margin-left: 5px;
     } */
